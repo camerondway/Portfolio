@@ -1,0 +1,38 @@
+
+.landing { 
+  &__header {
+    color: #000099;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: 70.625em) {
+      font-size: 6rem;
+      line-height: 5.5rem;
+    }
+  }
+
+  &__header-sub {
+    color: #000099;
+    margin: 0;
+    position: relative;
+    
+    @media (min-width: 70.625em) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__header-sub-wrap {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__header-sub-wrap::after {
+    border-top: 1px solid #000099;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+}
