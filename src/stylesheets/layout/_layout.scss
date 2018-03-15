@@ -1,3 +1,25 @@
 .layout {
-  
+  // 1265px
+  max-width: 79.06rem;
+  width: 100%;
+
+  &__2-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+    @media (min-width: 39.375em) {
+      flex-direction: row;
+    }
+
+  }
+
+  &__2-col-column:first-of-type {
+    width: 40%;
+  }
+
+  &__2-col-column:last-of-type {
+    width: 60%;
+  }
 }
