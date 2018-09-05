@@ -5,6 +5,7 @@
     font-size: 3rem;
     line-height: 3rem;
     margin-bottom: 1rem;
+    opacity: .8;
 
     @media (min-width: 70.625em) {
       font-size: 6rem;
@@ -15,6 +16,7 @@
   &__header-sub {
     color: #000099;
     margin: 0;
+    opacity: .8;
     position: relative;
     
     @media (min-width: 70.625em) {

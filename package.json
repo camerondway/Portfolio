@@ -5,8 +5,5 @@
   "license": "MIT",
   "dependencies": {
     "blendid": "^4.4.3"
-  },
-  "devDependencies": {
-    "sass-globbing": "^1.0.0-alpha1"
   }
 }
