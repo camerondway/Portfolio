@@ -1,0 +1,1 @@
+.navigation{position:-webkit-sticky;position:sticky;text-align:right;top:0;z-index:1;width:100%}.navigation__container{padding:.5rem 2rem}.navigation__link{font-size:1rem}@media (min-width:39.375em){.navigation__link{font-size:1.5rem}}.navigation__link:first-of-type{margin-right:1rem}

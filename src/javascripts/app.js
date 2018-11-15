@@ -1,3 +1,11 @@
 import './modules'
+import Nav from './modules/nav';
+import Wufoo from './modules/wufoo';
 
-console.log(`app.js has loaded!`)
+
+var SmoothScroll = require('smooth-scroll');
+
+new Nav();
+new Wufoo();
+SmoothScroll('a[href*="#"]');
+

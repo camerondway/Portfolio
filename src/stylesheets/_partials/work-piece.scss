@@ -1,0 +1,95 @@
+.work-piece {
+  &__content {
+    max-width: 40rem;
+    padding: 0px 2rem;
+  }
+
+  &__content-header {
+    font-size: 4rem;  
+  }
+
+  &__content-img {
+    max-width: 480px;
+    width: 100%;
+  }
+  &__content-list {
+    font-size: 2rem;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    
+    @media (min-width: 39.375em) {
+      font-size: 2.5rem;
+    }
+
+  }
+
+  &__content-list-header {
+    font-family: 'Bungee Shade', cursive;
+    padding-bottom: 1rem;
+  }
+  
+  &__content-sub-list {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  &__content-list-header-client {
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  &__content-link {
+    display: block;
+    text-align: center;
+
+    @media (min-width: 39.375em) {
+      text-align: left;
+    }
+  }
+  
+  &__content-link-btn {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1rem;
+    line-height: 1.15;
+    margin: 0;
+    padding: 1.25rem 1.75rem;
+    background-color: transparent;
+    color: #fff;
+    border: 5px solid #fff;
+    overflow: visible;
+    text-transform: none;
+    
+    @media (min-width: 39.375em) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__content-link-btn--blue {
+    color: #000099;
+    border: 5px solid #000099;
+  }
+
+  &__content-link-btn.work-piece__content-link-btn--blue:hover,
+  &__content-link-btn.work-piece__content-link-btn--blue:focus {
+    background: #000099;
+    border: 5px solid transparent;
+    color: #fff;
+  }
+
+  &__content-link-btn:hover,
+  &__content-link-btn:focus {
+      background: #fff;
+      border: 5px solid transparent;
+      color: #000099;
+  }
+  
+  &__content-link-btn:focus {
+      outline: 1px solid #000099;
+      outline-offset: -4px;
+  }
+  
+  &__content-link-btn:active {
+      transform: scale(0.99);
+  }  
+}

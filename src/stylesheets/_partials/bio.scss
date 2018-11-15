@@ -1,0 +1,12 @@
+.bio {
+  padding: 0 2rem;
+  max-width: 50rem;
+
+  @media (min-width: 39.375em) {
+    padding: 0 5rem;
+  }
+
+  &__copy {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,68 @@
+.wufoo {
+  max-width: 400px;
+  width: 100%;
+
+  input.wufoo__btn {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    margin: 0;
+    padding: 1.25rem 1.75rem;
+    background-color: transparent;
+    overflow: visible;
+    text-transform: none;
+    color: #000099;
+    border: 5px solid #000099;
+    width: 50%;
+    display: block;
+  }
+
+  input.wufoo__btn:hover,
+  input.wufoo__btn:focus {
+    background: #000099;
+    border: 5px solid transparent;
+    color: #fff;
+  }
+
+  label {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+
+  button, 
+  textarea, 
+  input, 
+  select {
+    background: #fffdf6;
+    border: 5px solid #000099;
+    color: #000099;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.15;
+    margin-bottom: .5rem;
+    padding: 1rem;
+    width: 80%;  
+    
+    @media (min-width: 39.375em) {
+      width: 87%;
+    }
+  }
+
+  .hide {
+    display: none;
+  }
+
+  &__field-container {
+    display: block;
+    overflow: hidden;
+    padding: 0 5px 0 0;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+}

@@ -2,6 +2,13 @@
 
 {% block content %}
   <div class="wrapper">
+    <div class="navigation">
+      <div class="navigation__container">
+        <a class="navigation__link" href="#work" data-scroll>Work</a>
+        <a class="navigation__link" href="#contact" data-scroll>Contact</a>
+      </div>
+      
+    </div>
     <section class="layout">
       <div class="layout__container">
         <div class="layout__2-col">
@@ -21,11 +28,242 @@
       </div>
     </section>
     <section class="layout__about">
-      <div class="layout__container">
-        <center>
-          <h3>My site is currently under development. Feel free to contact me <a href="mailto:camerondway@gmail.com">here</a> and check out my <a href="https://github.com/camerondway/">Github</a>!</h3>
-        </center>
+      <div class="layout__container layout--center">
+        <div class="bio">
+          <p class="bio__copy">I'm an Indianapolis based web developer with a knack for building accessible web experiences for all users. </p>
+        </div>
       </div>
     </section>
+    <section class="layout__work-intro layout--center">
+      <div class="layout__container">
+        <div class="work-intro" id="work">
+          <h2 class="work-intro__headline">Check out my work!</h2>
+        </div>
+      </div>
+    </section>
+    <section class="layout__work layout--center">
+      <div class="work">
+        <a class="work__item" data-scroll href="#iuhealth">
+          <div>
+            <span class="work__item-title">iuhealth.org</span>
+          </div>
+          <div class="work__item-bg">
+            <img src="/images/iuh-site-screenshot.png" class="work__item-bg-img" alt=""/>
+          </div>
+        </a>
+        <a class="work__item" data-scroll href="#kappaalphatheta">
+          <div>
+            <span class="work__item-title">kappaalphatheta.org</span>
+          </div>
+          <div class="work__item-bg">
+            <img src="/images/kat-site-screenshot.png" class="work__item-bg-img" alt=""/>
+          </div>
+        </a>
+        <a class="work__item" data-scroll href="#indianasportscorp">
+          <div>
+            <span class="work__item-title">indianasportscorp.org</span>
+          </div>
+          <div class="work__item-bg">
+            <img src="/images/isc-site-screenshot.png" class="work__item-bg-img" alt=""/>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="layout--center layout__work-piece">
+      <div class="layout__container">
+        <div class="work-piece">
+          <div class="work-piece__content" id="iuhealth">
+            <ul class="work-piece__content-list">
+              <li class="work-piece__content-list-header">
+                Client: <span class="work-piece__content-list-header-client">IU Health</span>
+              </li>
+              <li class="work-piece__content-list-header">
+                Overview:
+                <ul class="work-piece__content-sub-list">
+                  <li>IU Health is the largest healthcare system in Indiana. Their goal as was to have the most personalized website as possible. Depending on the users location and needs, the site is specialized to them.</li>
+                </ul>
+              </li>
+              <li class="work-piece__content-list-header">
+                My Duties:
+                <ul class="work-piece__content-sub-list">
+                  <li>During the build I created UI elements such as accordions and made them modular in Craft.</li>
+                  <li>I worked with Algolia and React to display information on both Find Providers and Find Locations search pages.</li>
+                  <li>I created modules in Craft for specific client requested needs.</li>
+                  <li>I did accessibility testing on the site and on specific modules as they were created pre and post launch and suggested/completed fixes for those issues.</li>
+                </ul>
+              </li>    
+              <li class="work-piece__content-list-header">
+                Tech:
+                <ul class="work-piece__content-sub-list">
+                  <li>Craft, React, Algolia, Responsive Design</li>
+                </ul>
+              </li>                         
+            </ul>
+            <a class="work-piece__content-link" href="https://iuhealth.org/" target="_blank">
+              <button class="work-piece__content-link-btn">
+                View IUHealth.org
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="layout--center layout__work-piece">
+        <div class="layout__container">
+          <div class="work-piece">
+            <div class="work-piece__content" id="kappaalphatheta">
+              <ul class="work-piece__content-list">
+                <li class="work-piece__content-list-header">
+                  Client: <span class="work-piece__content-list-header-client">Kappa Alpha Theta</span
+                </li>
+                <li class="work-piece__content-list-header">
+                  Overview:
+                  <ul class="work-piece__content-sub-list">
+                    <li>Kappa Alpha Theta is a national women’s fraternity whose goal was to update their site with a more modern look.</li>
+                  </ul>
+                </li>
+                <li class="work-piece__content-list-header">
+                  My Duties:
+                  <ul class="work-piece__content-sub-list">
+                    <li>Built out UI elements and made them modular in Craft.</li>
+                    <li>Conducted accessibility testing on elements and made fixes for those issues.</li>
+                  </ul>
+                </li>    
+                <li class="work-piece__content-list-header">
+                  Tech:
+                  <ul class="work-piece__content-sub-list">
+                    <li>Craft, JavaScript, Responsive Design</li>
+                  </ul>
+                </li>                         
+              </ul>
+              <a class="work-piece__content-link" href="https://www.kappaalphatheta.org/" target="_blank">
+                <button class="work-piece__content-link-btn work-piece__content-link-btn--blue">
+                  View KappaAlphaTheta.org
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="layout--center layout__work-piece">
+        <div class="layout__container">
+          <div class="work-piece">
+            <div class="work-piece__content" id="indianasportscorp">
+              <ul class="work-piece__content-list">
+                <li class="work-piece__content-list-header">
+                  Client: <span class="work-piece__content-list-header-client">Indiana Sports Corporation</span>
+                </li>
+                <li class="work-piece__content-list-header">
+                  Overview:
+                  <ul class="work-piece__content-sub-list">
+                    <li>Indiana Sports Corporation was the nation's first sports commission and their client goal was to update their current website and make it responsive and more user friendly.
+                    </li>
+                  </ul>
+                </li>
+                <li class="work-piece__content-list-header">
+                  My Duties:
+                  <ul class="work-piece__content-sub-list">
+                    <li>Build UI elements and make them modular in Craft.</li>
+                    <li>Make sure all UI elements are responsive.</li>
+                  </ul>
+                </li>    
+                <li class="work-piece__content-list-header">
+                  Tech:
+                  <ul class="work-piece__content-sub-list">
+                    <li>Craft, JavaScript, Responsive Design</li>
+                  </ul>
+                </li>                         
+              </ul>
+              <a class="work-piece__content-link" href="https://www.indianasportscorp.org/" target="_blank">
+                <button class="work-piece__content-link-btn">
+                  View IndianaSportsCorp.org
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="layout--center layout__contact">
+        <div class="contact">
+          <div class="contact__about">
+            <h2 class="contact__heading">More about me!</h2>
+            <p class="contact__bio">I was born in Bloomington, Indiana and moved to Indianapolis in October of 2010. I’m a diehard Chicago Cubs fan, and I love music. I do design work for my friends bands and other musicians.</p>
+            <p class="contact__bio">Check out my Social media:</p>
+            <a class="contact__social-link" href="https://github.com/camerondway" target="_blank">GitHub</a>
+            <a class="contact__social-link" href="https://codepen.io/cway" target="_blank">CodePen</a>
+            <a class="contact__social-link" href="https://www.linkedin.com/in/cameron-way-82006648/" target="_blank">LinkedIn</a>
+            <a class="contact__social-link" href="https://www.instagram.com/_melbaxtoast_/" target="_blank">Instagram</a>
+          </div>
+          <div class="contact__form" id="contact">
+            <h2 class="contact__heading">Contact me!</h2>
+            <div class="contact__form-container">
+              <div id="container" class="wufoo">
+                <form id="form1" name="form1" class="topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data"
+                  method="post" novalidate action="https://camerondway.wufoo.com/forms/zs5hzp80olsps3/#public">
+                  <ul class="wufoo__list">
+                    <li id="foli4" data-wufoo-field data-field-type="text" class="notranslate      ">
+                      <label class="desc" id="title4" for="Field4">
+                        Name
+                        <span id="req_4" class="req">*</span>
+                      </label>
+                      <div class="wufoo__field-container">
+                        <input id="Field4" name="Field4" type="text" class="field text medium" value="" maxlength="255" tabindex="1"
+                          onkeyup="" required placeholder="" />
+                      </div>
+                    </li>
+                    <li id="foli3" class="notranslate      ">
+                      <label class="desc" id="title3" for="Field3">
+                        Email
+                        <span id="req_3" class="req">*</span>
+                      </label>
+                      <div class="wufoo__field-container">
+                        <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value=""
+                          maxlength="255" tabindex="2" placeholder="" required />
+                      </div>
+                    </li>
+                    <li id="foli5" class="notranslate      "><label class="desc" id="title5" for="Field5">
+                        How may I help you?
+                        <span id="req_5" class="req">*</span>
+                      </label>
+            
+                      <div class="wufoo__field-container">
+                        <textarea id="Field5" name="Field5" class="field textarea medium" spellcheck="true" rows="10" cols="50"
+                          tabindex="3" onkeyup="" placeholder="" required></textarea>
+            
+                      </div>
+                    </li>
+                    <li class="buttons ">
+                      <div>
+            
+                        <input id="saveForm" name="saveForm" class="wufoo__btn submit" type="submit" value="Submit" />
+                        <a href="https://master.wufoo.com/forms/m7p0x3/def/field1=camerondway.wufoo.com/forms/contact-form/" target="_blank"
+                          style="font-size:85% !important;visibility:visible !important;display:inline !important;
+            background:none !important;border:none !important;color:blue !important;
+            text-indent:0 !important;text-decoration:underline !important;position:static;
+            margin:0 !important;padding:0 !important;overflow:none !important
+            width:auto !important;height:auto !important;">Report
+                          Abuse</a>
+                      </div>
+                    </li>
+            
+                    <li class="hide">
+                      <label for="comment">Do Not Fill This Out</label>
+                      <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                      <input type="hidden" id="idstamp" name="idstamp" value="8U/h2f9EBZgyKNdtTqDKtyavuwBxC6U/J0GthlUBUdk=" />
+                    </li>
+                  </ul>
+                </form>            
+              </div>              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="layout--center layout__footer">
+        <footer>
+          <div class="footer">
+            <p class="footer__text">&copy;cameronway.net 2018</p>
+          </div>
+        </footer>
+      </section>      
   </div>
 {% endblock %}
