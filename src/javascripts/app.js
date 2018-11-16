@@ -1,11 +1,11 @@
 import './modules'
-import Nav from './modules/nav';
+import Parallax from './modules/parallax';
 import Wufoo from './modules/wufoo';
 
 
 var SmoothScroll = require('smooth-scroll');
 
-new Nav();
+new Parallax();
 new Wufoo();
 SmoothScroll('a[href*="#"]');
 
